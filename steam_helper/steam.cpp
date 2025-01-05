@@ -1763,8 +1763,7 @@ int main(int argc, char *argv[])
 
         setup_vrpaths();
 
-        if (game_process)
-            setup_vr_registry();
+        setup_vr_registry();
 
         child = run_process(&should_await, game_process);
 
